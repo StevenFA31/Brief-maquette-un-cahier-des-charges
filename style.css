@@ -1,0 +1,113 @@
+/*********** ALL ************/
+
+body {
+  background-color: #403f3f;
+}
+
+h1 {
+  text-align: center;
+  padding: 30px;
+}
+
+/*********** Home ***************/
+
+section#home {
+  background-image: url(./asset/imagetohome.jpg);
+  background-size: cover;
+  background-position: bottom;
+  width: auto;
+  height: 100vh;
+}
+
+section#home img {
+  width: auto;
+  height: 100px;
+}
+
+div.boxhome {
+  text-align: center;
+  margin: 12.5%;
+}
+section#home .container-lg-me {
+  width: auto;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: stretch;
+  align-content: stretch;
+}
+
+.navbar-nav li {
+  text-align: center;
+  /* display: contents;
+  justify-content: center; */
+}
+/* section#home img {
+  width: auto;
+  height: 100vh;
+} */
+
+/*********** About **************/
+section#about p {
+  text-align: center;
+}
+section#about div.col {
+  display: flex;
+  align-items: center;
+}
+
+/* section#about div.col {
+  grid-template-columns: 2fr 60px;
+} */
+
+/*********** Gallery **************/
+section#gallery {
+  background-color: #201e1e;
+}
+
+section#gallery div.col {
+}
+/*********** Product **************/
+section#product {
+}
+/*********** Formula **************/
+section#formula {
+  background-color: #201e1e;
+}
+
+section#formula div.col {
+  width: auto;
+  height: 300px;
+  border: 1px solid whitesmoke;
+  background-color: aqua;
+  padding: 0;
+  margin: 0;
+}
+
+section#formula div.row {
+  row-gap: 50px 20px;
+}
+
+/*********** Contact **************/
+
+.parent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/*********** Footer **************/
+
+footer {
+  background-color: rgb(34, 34, 34);
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 13px;
+  margin: 0;
+}
